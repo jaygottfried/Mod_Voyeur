@@ -442,7 +442,7 @@ class MFC(QWidget):
         self.olfa_communication = monitor
         self.parent_olfactometer = parent
         self.mfcindex = mfcindex  # index of MFC in the module
-        self.olfactometer_address = olfactometer_address  # index of the slave in the system
+        self.olfactometer_address = olfactometer_address  # index of the subordinate in the system
         self.flow = 0
         if name == "Air":
             self.mfccapacity = 1000
